@@ -1,5 +1,5 @@
 content:
   - name: posts
     label: Features
-    path: content
+    path: content/features
     type: collection
