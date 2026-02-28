@@ -8,6 +8,7 @@ content:
     fields:
       - name: features
         label: Features
+        type: object
         fields:
           - name: title
             label: Feature Title
