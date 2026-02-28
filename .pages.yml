@@ -2,7 +2,7 @@ content:
   - name: features
     label: Features
     type: collection
-    path: /content/homepage/features
+    path: content/homepage/features
 
     fields:
       - name: title
