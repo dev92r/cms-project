@@ -1,25 +1,18 @@
-collections:
-  - name: homepage
-    label: Homepage
-    path: content/home
+content:
+  - name: features
+    label: Features
+    path: content/features.json
+    type: file
     format: json
     fields:
-      - name: heroTitle
-        label: Hero Title
+      - name: title
+        label: Feature Title
         type: string
 
-      - name: features
-        label: Features Section
-        type: list
-        fields:
-          - name: title
-            label: Feature Title
-            type: string
+      - name: description
+        label: Feature Description
+        type: text
 
-          - name: description
-            label: Feature Description
-            type: text
-
-          - name: icon
-            label: Feature Icon
-            type: string
+      - name: icon
+        label: Feature Icon
+        type: string
