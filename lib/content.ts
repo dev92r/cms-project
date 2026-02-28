@@ -10,7 +10,7 @@ export function getHeroContent() {
 }
 
 export function getFeatures() {
-  const dir = path.join(process.cwd(), "content/features");
+  const dir = path.join(process.cwd(), "content/homepage/features");
   const files = fs.readdirSync(dir);
 
   return files.map((file) => {
