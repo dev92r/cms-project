@@ -4,7 +4,6 @@ content:
     type: collection
     path: content/homepage/features
     format: json
-    extension: json
 
     fields:
       - { name: title, type: string }
