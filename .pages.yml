@@ -1,19 +1,15 @@
 content:
   - name: features
     label: Features
-    path: content/features.json
-    type: file
+    type: collection
+    path: content/features
     format: json
 
     fields:
-      - name: features
-        label: Features
-        type: object
-        fields:
-          - name: title
-            label: Feature Title
-            type: string
+      - name: title
+        label: Feature Title
+        type: string
 
-          - name: description
-            label: Feature Description
-            type: text
+      - name: description
+        label: Feature Description
+        type: text
