@@ -1,14 +1,9 @@
 content:
   - name: features
     label: Features
-    type: collection
     path: content/homepage/features
-
+    type: collection
+    filename: "features23"
     fields:
-      - name: title
-        label: Feature Title
-        type: string
-
-      - name: description
-        label: Feature Description
-        type: text
+      - {name: title, label: Title, type: string, required: true}
+      - {name: description, label: Title, type: rich-text, required: true}
