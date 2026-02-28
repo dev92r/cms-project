@@ -6,5 +6,5 @@ content:
     format: json
 
     fields:
-      - { name: title, type: string }
-      - { name: description, type: string }
+      - { name: title, label: Title, type: string }
+      - { name: description, label: Description, type: string }
