@@ -3,7 +3,6 @@ content:
     label: Features
     type: collection
     path: content/homepage/features
-    format: json
 
     fields:
       - name: title
