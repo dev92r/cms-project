@@ -12,7 +12,3 @@ content:
       - name: description
         label: Feature Description
         type: text
-
-      - name: icon
-        label: Feature Icon
-        type: string
