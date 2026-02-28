@@ -10,7 +10,12 @@ export function getHeroContent() {
 }
 
 export function getFeatures() {
-  const filePath = path.join(process.cwd(), "content/features.json");
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(fileContents);
+  const dir = path.join(process.cwd(), "content/features");
+  const files = fs.readdirSync(dir);
+
+  return files.map((file) => {
+    const filePath = path.join(dir, file);
+    const content = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(content);
+  });
 }
