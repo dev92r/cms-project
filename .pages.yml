@@ -6,5 +6,12 @@ content:
     format: json
 
     fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: rich-text, required: true }
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: description
+        label: Description
+        type: rich-text
+        required: true
