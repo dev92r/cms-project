@@ -4,14 +4,8 @@ content:
     type: collection
     path: content/homepage/features
     format: json
+    extension: json
 
     fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-
-      - name: description
-        label: Description
-        type: rich-text
-        required: true
+      - { name: title, type: string }
+      - { name: description, type: string }
