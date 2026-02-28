@@ -3,8 +3,6 @@ content:
     label: Features
     type: collection
     path: content/homepage/features
-    format: json
-    extension: json
     fields:
       - { name: title, label: Title, type: string }
       - { name: description, label: Description, type: string }
