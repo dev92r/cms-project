@@ -1,10 +1,10 @@
-[
-  {
+{
+  "features": [{
     "title": "Easy Appointment Booking",
     "description": "Schedule consultations quickly."
   },
   {
     "title": "Smart Product Discovery",
     "description": "Find the best device for you."
-  }
-]
+  }]
+}
