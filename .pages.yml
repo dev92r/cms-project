@@ -1,5 +1,25 @@
-content:
-  - name: posts
-    label: Features
-    path: content/features.json
-    type: collection
+collections:
+  - name: homepage
+    label: Homepage
+    path: content/home
+    format: json
+    fields:
+      - name: heroTitle
+        label: Hero Title
+        type: string
+
+      - name: features
+        label: Features Section
+        type: list
+        fields:
+          - name: title
+            label: Feature Title
+            type: string
+
+          - name: description
+            label: Feature Description
+            type: text
+
+          - name: icon
+            label: Feature Icon
+            type: string
