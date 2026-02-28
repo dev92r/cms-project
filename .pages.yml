@@ -2,7 +2,7 @@ content:
   - name: features
     label: Features
     type: collection
-    path: content/features
+    path: content/homepage/features
     format: json
 
     fields:
