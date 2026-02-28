@@ -1,5 +1,5 @@
 content:
   - name: posts
     label: Features
-    path: content/homepage
-    type: collection
+    path: content/features.json
+    type: file
