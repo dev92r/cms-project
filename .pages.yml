@@ -4,11 +4,15 @@ content:
     path: content/features.json
     type: file
     format: json
-    fields:
-      - name: title
-        label: Feature Title
-        type: string
 
-      - name: description
-        label: Feature Description
-        type: text
+    fields:
+      - name: features
+        label: Features
+        fields:
+          - name: title
+            label: Feature Title
+            type: string
+
+          - name: description
+            label: Feature Description
+            type: text
