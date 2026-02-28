@@ -1,8 +1,10 @@
 content:
   - name: features
     label: Features
-    path: content/homepage/features
     type: collection
+    path: content/homepage/features
+    format: json
+
     fields:
-      - {name: title, label: Title, type: string, required: true}
-      - {name: description, label: Title, type: rich-text, required: true}
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: rich-text, required: true }
